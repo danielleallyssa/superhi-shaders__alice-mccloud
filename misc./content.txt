@@ -1,0 +1,22 @@
+Links:
+https://alice-mccloud.superhi.com/
+http://pink-noise.superhi.com/
+https://thebookofshaders.com/10/
+https://thebookofshaders.com/11/
+https://thebookofshaders.com/13/
+
+Copy:
+Alice McCloud
+Textile manufacturer
+Instagram
+Twitter
+Contact
+
+Colors:
+White: #ffffff
+
+Color 1 (HSV)
+0.00, 0.90, 0.85
+
+Color 2 (HSV)
+0.07, 0.85, 0.75

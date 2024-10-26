@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Sprat";
+  src: url("assets/sprat.woff2") format("woff2");
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Sprat", serif;
+  line-height: 1.25;
+  font-variation-settings: "wght" 80, "wdth" 10;
+
+  background: #222;
+  color: #fff;
+
+  display: flex;
+}
+
+body * {
+  font-size: 32px;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  border: 1px solid #fff;
+  margin: 48px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  padding: 32px;
+}
+
+header {
+  flex: 1;
+}
+
+footer {
+  border-top: 1px solid #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: font-variation-settings 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+  font-variation-settings: "wght" 150, "wdth" 80;
+}
+
+a:before {
+  content: "";
+  display: inline-block;
+  background: white;
+  height: 0.2em;
+  width: 0.2em;
+  border-radius: 50%;
+  margin-top: 0.25em;
+  margin-right: 0.4em;
+}
+
+canvas {
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100vmax;
+  height: 100vmax;
+  z-index: -1;
+  pointer-events: none;
+}
